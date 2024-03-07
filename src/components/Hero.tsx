@@ -4,7 +4,7 @@ import CustomButton from './CustomButton';
 
 export default function Hero() {
 	return (
-		<div className="flex xl:flex-row gap-5 relative z-0 max-w-screen-2xl mx-auto ">
+		<div className="flex xl:flex-row flex-col px-10 sm:px-14 md:px-20 gap-5 relative z-0 max-w-screen-2xl mx-auto ">
 			<div className="flex-1 pt-36 padding-x">
 				<h1 className="2xl:text-7xl sm:text-6xl text-5xl font-extrabold">
 					Find, book, or rent a car - quickly and easily
@@ -18,16 +18,16 @@ export default function Hero() {
 					containerStyles="bg-primary text-white rounded-full mt-10"
 				/>
 			</div>
-			<div className="xl:flex-1 flex justify-end items-end w-full xl:h-screen">
-				<div className="relative xl:w-full w-11/12 xl:h-full h-[590px] z-0">
+			<div className="xl:flex-1 flex justify-end h-96 sm:h-full items-end w-full xl:h-screen">
+				<div className="relative xl:w-full w-full xl:h-full sm:h-[590px] h-[300px] z-0">
 					<Image
 						src="/hero.png"
 						alt="hero"
 						fill
 						className="object-contain"
 					/>
-					<div className="absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden" />
 				</div>
+				<div className="absolute xl:-top-24 xl:-right-1/2 lg:left-2/4 left-20 sm:-right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[260px] sm:h-[590px] overflow-hidden" />
 			</div>
 		</div>
 	);
