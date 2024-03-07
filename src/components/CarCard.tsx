@@ -1,10 +1,15 @@
 'use client';
 
-import { CarCardProps } from '@/types';
+import { CarProps } from '@/types';
 import { calculateCarRent } from '@/utils';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
 import { useState } from 'react';
+import CarDetails from './CarDetails';
+
+interface CarCardProps {
+	car: CarProps;
+}
 
 export default function CarCard({ car }: CarCardProps) {
 	const {
@@ -26,7 +31,7 @@ export default function CarCard({ car }: CarCardProps) {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="flex flex-col p-6 justify-center items-start text-black bg-slate-100 hover:bg-white hover:shadow-md rounded-3xl">
+		<div className="flex flex-col p-6 justify-center items-start text-black bg-slate-50 hover:bg-white hover:shadow-md rounded-3xl group">
 			<div className="w-full flex justify-between items-start gap-2">
 				<h2 className="text-[22px] leading-[26px] font-bold capitalize">
 					{make} {model}
@@ -47,7 +52,7 @@ export default function CarCard({ car }: CarCardProps) {
 				/>
 			</div>
 			<div className="relative flex w-full mt-2 ">
-				<div className="flex group-hover:invisible w-full justify-between text-gray">
+				<div className="flex group-hover:invisible w-full justify-between text-grey">
 					<div className="flex flex-col justify-center items-center gap-2">
 						<Image
 							src="/steering-wheel.svg"
@@ -88,6 +93,11 @@ export default function CarCard({ car }: CarCardProps) {
 					/>
 				</div>
 			</div>
+			<CarDetails
+				isOpen={isOpen}
+				closeModal={() => setIsOpen(false)}
+				car={car}
+			/>
 		</div>
 	);
 }
