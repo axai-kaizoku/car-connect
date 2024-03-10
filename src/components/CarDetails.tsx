@@ -113,7 +113,13 @@ export default function CarDetails({
 													<h4 className="text-gray-400 capitalize">
 														{key.split('_').join(' ')}
 													</h4>
-													<p className="text-black font-semibold ">{value}</p>
+													<p className="text-black font-semibold capitalize">
+														{key === 'transmission'
+															? value === 'a'
+																? 'Automatic'
+																: 'Manual'
+															: value}
+													</p>
 												</div>
 											))}
 										</div>

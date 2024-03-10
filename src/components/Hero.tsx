@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
+import Link from 'next/link';
 
 export default function Hero() {
 	return (
@@ -13,10 +14,12 @@ export default function Hero() {
 					Streamline your car rental experience with our efforless booking
 					process.
 				</p>
-				<CustomButton
-					title="Explore Cars"
-					containerStyles="bg-primary text-white rounded-full mt-10"
-				/>
+				<Link href="#catalouge">
+					<CustomButton
+						title="Explore Cars"
+						containerStyles="bg-primary text-white rounded-full mt-10"
+					/>
+				</Link>
 			</div>
 			<div className="xl:flex-1 flex justify-end h-96 sm:h-full items-end w-full xl:h-screen">
 				<div className="relative xl:w-full w-full xl:h-full sm:h-[590px] h-[300px] z-0">
