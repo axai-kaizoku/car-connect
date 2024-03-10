@@ -50,7 +50,7 @@ export default function SearchManufacturer({
 						leaveFrom="opacity-100"
 						leaveTo="opacity-0"
 						afterLeave={() => setQuery('')}>
-						<Combobox.Options>
+						<Combobox.Options className="max-h-48 overflow-y-auto">
 							{filterManufacturers.length === 0 && query !== '' ? (
 								<Combobox.Option
 									value={query}
