@@ -8,10 +8,10 @@ export default function Footer() {
 			<div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
 				<div className="flex flex-col justify-start items-start gap-6">
 					<Image
-						src="/logo.svg"
+						src="/logo.png"
 						alt="logo"
-						width={118}
-						height={18}
+						width={100}
+						height={20}
 						className="object-contain"
 					/>
 					<p className="text-base text-gray-700 ">

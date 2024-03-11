@@ -9,13 +9,15 @@ export default function Navbar() {
 				<Link
 					href="/"
 					className="flex-center">
-					<Image
-						src="/logo.svg"
-						alt="carlogo"
-						width={118}
-						height={18}
-						className="object-contain"
-					/>
+					<div className="w-[118px] h-[18px] flex items-center justify-center overflow-hidden">
+						<Image
+							src="/logo.png"
+							alt="carlogo"
+							width={118}
+							height={18}
+							className="object-cover"
+						/>
+					</div>
 				</Link>
 				<CustomButton
 					title="Sign In"
