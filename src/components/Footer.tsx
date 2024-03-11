@@ -15,7 +15,7 @@ export default function Footer() {
 						className="object-contain"
 					/>
 					<p className="text-base text-gray-700 ">
-						CarHub 2023 <br />
+						CarConnect 2023 <br />
 						&copy; All rights reserved
 					</p>
 				</div>
@@ -38,7 +38,7 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className="flex-between flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-				<p>@2023 Carhub. All Rights Reserved &copy;</p>
+				<p>@2023 CarConnect. All Rights Reserved &copy;</p>
 				<div className="flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10">
 					<Link
 						href="/"

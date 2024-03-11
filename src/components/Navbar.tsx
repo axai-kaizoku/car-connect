@@ -8,15 +8,9 @@ export default function Navbar() {
 			<nav className="max-w-screen-2xl mx-auto flex-between sm:px-16 px-6 py-4">
 				<Link
 					href="/"
-					className="flex-center">
-					<div className="w-[118px] h-[18px] flex items-center justify-center overflow-hidden">
-						<Image
-							src="/logo.png"
-							alt="carlogo"
-							width={118}
-							height={18}
-							className="object-cover"
-						/>
+					className="flex-center items-baseline">
+					<div className="w-[118px] h-[18px] flex justify-center items-center font-bold text-2xl  leading-none">
+						Car <span className="text-xl font-light">Connect</span>
 					</div>
 				</Link>
 				<CustomButton
