@@ -7,14 +7,14 @@ export default function Hero() {
 	return (
 		<div className="flex xl:flex-row flex-col px-10 sm:px-14 md:px-20 gap-5 relative z-0 max-w-screen-2xl mx-auto ">
 			<div className="flex-1 pt-36 padding-x">
-				<h1 className="2xl:text-7xl sm:text-6xl text-5xl font-extrabold">
+				<h1 className="2xl:text-7xl sm:text-6xl text-5xl font-bold">
 					Find, book, or rent a car - quickly and easily
 				</h1>
 				<p className="text-2xl text-black font-light mt-5">
 					Streamline your car rental experience with our efforless booking
 					process.
 				</p>
-				<Link href="#catalouge">
+				<Link href="/catalouge">
 					<CustomButton
 						title="Explore Cars"
 						containerStyles="bg-primary text-white rounded-full mt-10"

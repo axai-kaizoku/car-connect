@@ -99,3 +99,166 @@ export const footerLinks = [
 		],
 	},
 ];
+
+export const brands = [
+	{
+		image: '/car-manufacturers/acura.png',
+		name: 'acura',
+	},
+	{
+		image: '/car-manufacturers/astonmartin.png',
+		name: 'aston martin',
+	},
+	{
+		image: '/car-manufacturers/audi.png',
+		name: 'audi',
+	},
+	{
+		image: '/car-manufacturers/bentley.png',
+		name: 'bentley',
+	},
+	{
+		image: '/car-manufacturers/bmw.png',
+		name: 'bmw',
+	},
+	{
+		image: '/car-manufacturers/buick.png',
+		name: 'buick',
+	},
+	{
+		image: '/car-manufacturers/cadillac.png',
+		name: 'cadillac',
+	},
+	{
+		image: '/car-manufacturers/chevrolet.png',
+		name: 'chevrolet',
+	},
+	{
+		image: '/car-manufacturers/chrysler.png',
+		name: 'chrysler',
+	},
+	{
+		image: '/car-manufacturers/dodge.png',
+		name: 'dodge',
+	},
+	{
+		image: '/car-manufacturers/ferrari.png',
+		name: 'ferrari',
+	},
+	{
+		image: '/car-manufacturers/fiat.png',
+		name: 'fiat',
+	},
+	{
+		image: '/car-manufacturers/ford.png',
+		name: 'ford',
+	},
+	{
+		image: '/car-manufacturers/gmc.png',
+		name: 'gmc',
+	},
+	{
+		image: '/car-manufacturers/honda.png',
+		name: 'honda',
+	},
+	{
+		image: '/car-manufacturers/hyundai.png',
+		name: 'hyundai',
+	},
+	{
+		image: '/car-manufacturers/infiniti.png',
+		name: 'infiniti',
+	},
+	{
+		image: '/car-manufacturers/jaguar.png',
+		name: 'jaguar',
+	},
+	{
+		image: '/car-manufacturers/jeep.png',
+		name: 'jeep',
+	},
+	{
+		image: '/car-manufacturers/kia.png',
+		name: 'kia',
+	},
+	{
+		image: '/car-manufacturers/lamborghini.png',
+		name: 'lamborghini',
+	},
+	{
+		image: '/car-manufacturers/landrover.png',
+		name: 'land rover',
+	},
+	{
+		image: '/car-manufacturers/lexus.png',
+		name: 'lexus',
+	},
+	{
+		image: '/car-manufacturers/lincoln.png',
+		name: 'lincoln',
+	},
+	{
+		image: '/car-manufacturers/maserati.png',
+		name: 'maserati',
+	},
+	{
+		image: '/car-manufacturers/mazda.png',
+		name: 'mazda',
+	},
+	{
+		image: '/car-manufacturers/mclaren.png',
+		name: 'mclaren',
+	},
+	{
+		image: '/car-manufacturers/mercedes-benz.png',
+		name: 'mercedes-benz',
+	},
+	{
+		image: '/car-manufacturers/mini.png',
+		name: 'mini',
+	},
+	{
+		image: '/car-manufacturers/mitsubishi.png',
+		name: 'mitsubishi',
+	},
+	{
+		image: '/car-manufacturers/nissan.png',
+		name: 'nissan',
+	},
+	{
+		image: '/car-manufacturers/porsche.png',
+		name: 'porsche',
+	},
+	{
+		image: '/car-manufacturers/ram.png',
+		name: 'ram',
+	},
+	{
+		image: '/car-manufacturers/rollsroyce.png',
+		name: 'rolls-royce',
+	},
+	{
+		image: '/car-manufacturers/smart.png',
+		name: 'smart',
+	},
+	{
+		image: '/car-manufacturers/subaru.png',
+		name: 'subaru',
+	},
+	{
+		image: '/car-manufacturers/tesla.png',
+		name: 'tesla',
+	},
+	{
+		image: '/car-manufacturers/toyota.png',
+		name: 'toyota',
+	},
+	{
+		image: '/car-manufacturers/volkswagen.png',
+		name: 'volkswagen',
+	},
+	{
+		image: '/car-manufacturers/volvo.png',
+		name: 'volvo',
+	},
+];
