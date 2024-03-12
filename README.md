@@ -1,7 +1,8 @@
 # Car Connect
 
-[Live Preview](https://blog-chef-next.vercel.app/)
+[Live Preview](https://car-connect-lovat.vercel.app/)
 A Basic Car Show casing website. Responsive for mobile and tablet screens also. Fetching data from an API (Rapid-api), added custom filters to search upon our needs.
+Note: The app utilizes a car image API that functions exclusively in development mode. In production, the API is inactive due to its paid subscription model. Users are advised to replace the API with their own in a production environment.
 
 ## Technologies
 
