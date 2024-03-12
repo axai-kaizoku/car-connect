@@ -55,6 +55,12 @@ export const yearsOfProduction = [
 	{ title: '2023', value: '2023' },
 ];
 
+export const transmission = [
+	{ title: 'Mode', value: '' },
+	{ title: 'Automatic', value: 'a' },
+	{ title: 'Manual', value: 'm' },
+];
+
 export const fuels = [
 	{
 		title: 'Fuel',
@@ -63,6 +69,10 @@ export const fuels = [
 	{
 		title: 'Gas',
 		value: 'Gas',
+	},
+	{
+		title: 'Diesel',
+		value: 'Diesel',
 	},
 	{
 		title: 'Electricity',

@@ -25,7 +25,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
 					handleUpdateParams(e);
 				}}>
 				<div className="relative w-fit z-10">
-					<Listbox.Button className="relative w-full min-w-32 flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-md sm:text-sm border">
+					<Listbox.Button className="relative w-full sm:min-w-24 min-w-28 flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-md sm:text-sm border">
 						<span className="block truncate">{selected.title}</span>
 						<Image
 							src="/chevron-up-down.svg"

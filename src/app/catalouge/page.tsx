@@ -2,8 +2,9 @@ import CarCard from '@/components/CarCard';
 import CustomFilter from '@/components/CustomFilter';
 import SearchBar from '@/components/SearchBar';
 import ShowMore from '@/components/ShowMore';
-import { fuels, yearsOfProduction } from '@/constants';
+import { fuels, transmission, yearsOfProduction } from '@/constants';
 import { fetchCars } from '@/utils';
+import Link from 'next/link';
 
 export default async function CarCatalogue({
 	searchParams,
@@ -16,6 +17,7 @@ export default async function CarCatalogue({
 		fuel: searchParams.fuel || '',
 		limit: searchParams.limit || 5,
 		model: searchParams.model || '',
+		transmission: searchParams.transmission || '',
 	});
 	const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
 	return (
@@ -25,7 +27,9 @@ export default async function CarCatalogue({
 				id="catalouge">
 				<div className="flex flex-col items-start justify-start gap-y-2.5 text-black">
 					<h1 className="text-4xl font-extrabold">Car Catalogue</h1>
-					<p>Explore the cars you might like</p>
+					<Link href="/catalouge">
+						<p>Explore the cars you might like</p>
+					</Link>
 				</div>
 				<div className="mt-12 w-full flex-between flex-wrap gap-5">
 					<SearchBar />
@@ -37,6 +41,10 @@ export default async function CarCatalogue({
 						<CustomFilter
 							title="year"
 							options={yearsOfProduction}
+						/>
+						<CustomFilter
+							title="transmission"
+							options={transmission}
 						/>
 					</div>
 				</div>
